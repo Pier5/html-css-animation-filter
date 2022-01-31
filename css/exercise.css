@@ -93,3 +93,18 @@
 
 /* esercizio 10 */
 
+.ex-10-icon {
+    animation-name: spinback;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinback {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* esercizio 11 */
