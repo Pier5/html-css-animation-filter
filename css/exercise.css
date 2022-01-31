@@ -80,3 +80,16 @@
 }
 
 /* esercizio 9 */
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    transform: scale(1.5);
+    filter: grayscale(.2) sepia(.6);
+    border-radius: 5%;
+}
+
+/* esercizio 10 */
+
