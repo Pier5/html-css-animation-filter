@@ -95,7 +95,6 @@
 
 .ex-10-icon {
     animation-name: spinback;
-    animation-direction: normal;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -108,3 +107,22 @@
 }
 
 /* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation-name: spinback-two;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+@keyframes spinback-two {
+    75% {
+        transform: rotate(310deg);
+    }
+
+    90% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
